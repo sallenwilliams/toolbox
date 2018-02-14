@@ -4,18 +4,17 @@ import java.util.ArrayList;
 
 public class TreeNode {
 
-
     private static boolean debug = true;
     private int value;
     private ArrayList<TreeNode> children;
 
     protected static int sumTree(TreeNode node) {
         int returnInt = node.getValue();
-        System.out.println("Root value...............[" + returnInt + "]");
+        System.out.println("Root x...............[" + returnInt + "]");
         for (TreeNode treeNode : node.getChildren()) {
             if (debug) {
                 boolean hasChildren;
-                System.out.println("TreeNode child value.....[" + treeNode.getValue() + "]");
+                System.out.println("TreeNode child x.....[" + treeNode.getValue() + "]");
                 if (treeNode.getChildren().size() > 0) {
                     hasChildren = true;
                 } else {
@@ -33,11 +32,11 @@ public class TreeNode {
         children = new ArrayList<TreeNode>();
     }
 
-    public int getValue() {
+    protected int getValue() {
         return value;
     }
 
-    public void setValue(int val) {   // To make immutable remove this set method since the value is passed into the constructor. - SAW 11-23-14
+    public void setValue(int val) {   // To make immutable remove this set method since the x is passed into the constructor. - SAW 11-23-14
         value = val;
     }
 
