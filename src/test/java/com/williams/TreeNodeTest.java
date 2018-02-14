@@ -13,13 +13,13 @@ public class TreeNodeTest {
     private TreeNode root;
     private int answer;
 
+    /**
+     *        1
+     *    2       3
+     *  4  5   6
+     */
     @Before
     public void setUp() {
-/*
- *        1
- *    2       3
- *  4  5   6
- */
         root = new TreeNode(1);
         TreeNode left = new TreeNode(2);
         TreeNode right = new TreeNode(3);

@@ -3,8 +3,11 @@ package com.williams;
 import java.util.Arrays;
 
 class CountAbsValueDistinct {
-    public int solution(int[] A) {
-        return (int) Arrays.stream(A).map(a -> a < 0 ? -a : a).distinct().count();
+    public static int calculateNumberOfAbsoluteValues(int[] ints) {
+        return (int) Arrays.stream(ints)
+                .map(i -> i < 0 ? -i : i)
+                .distinct()
+                .count();
     }
 }
 
