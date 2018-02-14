@@ -14,9 +14,11 @@ public class TreeNodeTest {
     private int answer;
 
     /**
-     *        1
-     *    2       3
-     *  4  5   6
+     * <pre>
+     *       1
+     *   2       3
+     * 4  5    6
+     * </pre>
      */
     @Before
     public void setUp() {
