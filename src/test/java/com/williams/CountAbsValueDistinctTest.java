@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class CountAbsValueDistinctTest {
 
     @Test
-    public void testCountAbsoluteValueDistinct() throws Exception {
+    public void testCountAbsoluteValueDistinct_correct() {
         CountAbsValueDistinct sol = new CountAbsValueDistinct();
         assertEquals(4,sol.solution(new int[]{3, 4, 4, 5, 6}));
     }
