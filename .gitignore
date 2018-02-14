@@ -24,4 +24,4 @@
 hs_err_pid*
 # maven
 /target/
-/.idea/workspace.xml
+/.idea/
