@@ -10,11 +10,11 @@ import static org.junit.Assert.assertEquals;
  *  @Date: 2/14/18 02:58
  *
  */
-public class SolutionTest {
+public class TokenUpBinaryOnZerosTest {
 
     @Test
     public void testSolution() {
-        assertEquals(2, Solution.solution(37));
+        assertEquals(2, TokenUpBinaryOnZeros.solution(37));
     }
 
 }

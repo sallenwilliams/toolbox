@@ -9,7 +9,7 @@ import java.util.stream.Stream;
  *  @Date: 2/14/18 02:15
  *
  */
-public class Solution {
+public class TokenUpBinaryOnZeros {
 
     static int solution(int N) {
         return Stream
